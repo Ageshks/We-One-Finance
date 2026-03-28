@@ -6967,6 +6967,7 @@ button.bg-dark:focus {
 .pb-5,
 .py-5 {
   padding-bottom: 3rem !important; }
+  
 
 .pl-5,
 .px-5 {
@@ -10076,3 +10077,19 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+.sectionLead {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Mobile Fix */
+@media (max-width: 768px) {
+  .ftco-wrap-about .col-sm-4 {
+    text-align: center !important;
+    padding: 30px 20px !important;
+  }
+
+  .sectionLead {
+    text-align: center !important;
+  }
+}
